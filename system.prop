@@ -168,3 +168,7 @@ persist.dbg.wfc_avail_ovr=1
 
 # System
 persist.sys.binary_xml=false
+
+# SurfaceFlinger
+ro.surface_flinger.vsync_event_phase_offset_ns=2000000
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000

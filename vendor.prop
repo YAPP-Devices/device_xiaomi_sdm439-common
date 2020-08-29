@@ -205,6 +205,13 @@ persist.vendor.debug.sensors.hal=i
 persist.vendor.bluetooth.modem_nv_support=true
 # -Bug494803,gongmingjie.wt,add,20191024,bt checklist
 
+# SurfaceFlinger
+debug.sf.early_phase_offset_ns=11600000
+debug.sf.early_app_phase_offset_ns=11600000
+debug.sf.early_gl_phase_offset_ns=3000000
+debug.sf.early_gl_app_phase_offset_ns=15000000
+debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
+
 #PAN-26598.add by cdzk.2020.12.21.Front and rear video without flash
 persist.vendor.camera.hal1.enable=1
 
