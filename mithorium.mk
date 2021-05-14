@@ -389,6 +389,10 @@ PRODUCT_PACKAGES += \
     init.qcom.qseecomd.sh \
     init.qcom.sensors.sh
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
