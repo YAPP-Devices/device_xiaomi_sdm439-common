@@ -221,6 +221,9 @@ iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
+# FM
+hw.fm.internal_antenna=true
+
 #PAN-26598.add by cdzk.2020.12.21.Front and rear video without flash
 persist.vendor.camera.hal1.enable=1
 
