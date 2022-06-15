@@ -78,6 +78,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+PRODUCT_PACKAGES += \
+    GCamGO-V2-Mi439
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
