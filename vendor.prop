@@ -215,6 +215,12 @@ debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
 # App
 ro.launcher.blur.appLaunch=0
 
+# App launch prefetching (IORapd)
+ro.iorapd.enable=false
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 #PAN-26598.add by cdzk.2020.12.21.Front and rear video without flash
 persist.vendor.camera.hal1.enable=1
 
